@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none !important;
+    list-style: none ;
+    box-sizing: border-box;
+    
+}
+#bg{
+    /* border: 3px solid black; */
+    /* background-color: rgb(236, 245, 154); */
+    background-image: url(https://cdn.wallpapersafari.com/96/76/Fon1tW.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#nav{
+    /* border: 2px solid rgb(220, 78, 78); */
+    background-color: rgba(169, 105, 56, 0.578);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+#logo{
+    /* border: 2px solid green; */
+    width:250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#fields{
+    /* border: 2px solid green; */
+    width:700px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    & a{
+        color: white;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:965px){
+    #fields{
+        width:400px;
+    }
+    #text{
+        /* border: 2px solid white !important; */
+        margin-left: 100px !important;
+    
+    }
+}
+@media (max-width:660px){
+    #logo{
+        width: 200px;
+        font-size: 13px;
+    }
+    #fields{
+        /* margin-left: 0px; */
+        gap: 5px;
+    }
+}
+@media(max-width:616px){
+    #logo{
+        width: 180px;
+        font-size: 8px !important;
+        justify-content: flex-start;
+    }
+    #fields{
+        /* margin-left: 0px; */
+        gap: 5px;
+    }
+}
+@media(max-width:590px){
+    #nav{
+        height: 120px;
+    }
+    #logo{
+        width: 200px;
+        justify-content: center;
+    }
+    #fields{
+        width: 600px;
+        gap: 5px;
+    }
+    #text{
+        margin-left: 70px !important;
+    }
+    #collapse{
+        height: 400px !important;
+    }
+    .carousel-item{
+        height: 400px !important;
+    }
+}
+
+@media(max-width:490px){
+    #text{
+        width: 200px !important;
+        font-size: 12px;
+    }
+}
+@media(max-width:320px){
+    #text{
+        margin-left: 40px !important;
+        width: 200px !important;
+        font-size: 12px;
+    }
+}
+/* @media(max-width:771px){
+  #img_cof{
+    width:100% !important;
+  }
+} */
+
+#collapse{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    color: blanchedalmond;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* padding-top: 150px; */
+    /* display: flex; */
+    justify-content: center;
+}
+.carousel-item{
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid red; */
+}
+
+#text{
+    /* border: 2px solid rgb(211, 68, 197); */
+    width: 350px;
+    height: 150px;
+    margin: 140px;
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#abtus{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#img_cof{
+    /* border: 1px solid blue; */
+    border-radius: 0px !important;
+}
+.card-body{
+    border: none !important;
+}
+#about{
+    background-color: rgb(185, 141, 41);
+    max-width: 100%; 
+    border: none;
+    border-radius: 0px;
+}
+#photo{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid coral; */
+}
+#title{
+
+    & h1{
+        /* font-size: 30px; */
+        /* font-weight: 80px; */
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: orangered;
+    }
+    & p{
+        text-align: center;
+    }
+}
+#more{
+    /* width: 100%; */
+    /* border: 2px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#see{
+    background-color: rgba(255, 68, 0, 0.916);
+    color: white;
+    border-radius: 8px;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services{
+    /* border: 2px solid rgb(241, 80, 80); */
+    width: 100%;
+    /* background-color: rgb(244, 247, 247); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-image: url("https://www.theladders.com/wp-content/uploads/drink-coffee-191101.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#serv{
+    width: 1400px;
+    /* height: 100px; */
+    /* border: 2px solid black; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    flex-wrap: wrap;
+   
+}
+#item{
+    
+    margin-top: 30px;
+    /* margin-bottom: 300px; */
+    /* border: 1px solid green; */
+    /* height: 500px; */
+    gap: 10px;
+    /* height: 700px; */
+    & h1{
+        font-size: 55px;
+    }
+}
+#blog{
+
+    & .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: last baseline;
+        flex-wrap: wrap;
+        /* margin-top: 50px; */
+        /* border: 2px solid black; */
+        height: 300px;
+
+        & .row{
+            gap: 30px;
+
+            & .col{
+                padding-top: 10px;
+                height: 250px;
+                /* border: 2px solid blue; */
+                background-color: orangered;
+            }
+        } 
+    }
+}
+
+.fa-mug-hot{
+    font-size: 60px;
+    color: lightseagreen;
+}
+
+.col{
+    border: 2px solid brown;
+    /* display: flex; */
+   justify-content: center;
+   align-items: center;
+}
+
+
+
