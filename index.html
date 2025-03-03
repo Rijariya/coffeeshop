@@ -15,12 +15,16 @@
             <h1>GrandCoffee</h1>
         </div>
         <div id="fields">
-            <div><a href="">Home</a></div>
-            <div><a href="">AboutUs</a></div>
-            <div><a href="">Gallery</a></div>
-            <div><a href="">Service</a></div>
-            <div><a href="">ContactUs</a></div>
-            <div><a href=""><i id="icon" class="fa-solid fa-magnifying-glass icon"></i></a></div>
+            <div><a href="#">Home</a></div>
+            <div><a href="#aboutus">AboutUs</a></div>
+            <div><a href="#title">Gallery</a></div>
+            <div><a href="#Service_bg">Service</a></div>
+            <div><a href="#contactus">ContactUs</a></div>
+            <div><i id="icon" class="fa-solid fa-magnifying-glass icon">
+              <ul id="dropdown">
+                <li><input type="search" name="" id="search"></li>
+            </ul>
+            </i></div>
         </div>
     </div>
 
@@ -80,6 +84,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus dolore, quibusdam similique et voluptatem voluptatibus tenetur consequatur dolor quisquam in corrupti nostrum labore, ex quia obcaecati? Laboriosam eaque ipsum omnis, quam reprehenderit provident mollitia quod blanditiis labore libero recusandae possimus doloribus dolor! Accusamus, quas est? Earum consequuntur consequatur, quas veniam quaerat minus, veritatis quod quisquam sapiente a aliquam. Itaque at dicta sequi asperiores Inventore eos perspiciatis totam.
               </p>
               <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <br><a href="#"> Back To Home</a>
             </div>
           </div>
         </div>
@@ -106,63 +111,25 @@
         </div>
       </div><br>
       <div id="more">
-        <div id="see"><center><h4>See More</h4></center></div>
-      </div>
+        <div><a id="see" href="https://in.images.search.yahoo.com/search/images;_ylt=AwrKCbnlosJnwAIAYRu7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=coffee+background+images&fr2=piv-web&type=E211IN826G91649&fr=mcafee#id=83&iurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F14%2F94%2F65%2F1494652c76a28f99dce3f7927957ee03.jpg&action=close" target="_blank"><center><h4>See More</h4></center></a></div>
+      </div> <br><a href="#"> Back To Home</a>
     </div><br><br>
 
-    <div id="services">
-      <div id="serv">
-          <div id="item">
-            <center>
-              <h1>Services</h1><br>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.voluptatibus mollitia adipisci quia. Esse, laborum atque.</p>
-            </center><br>
-    
-            <!-- <div id="blog">
-              <div class="container">
-                <div class="row">
-                  <div class="col">
-                    <div>
-                      <center><i class="fa-solid fa-mug-hot"></i></center><br>
-                    </div>
-                    <div>
-                      <center>
-                        <h3>Original Coffee</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, maxime!</p>
-                      </center>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div>
-                      <center><i class="fa-solid fa-mug-hot"></i></center><br>
-                    </div>
-                    <div>
-                      <center>
-                        <h3>20 Coffee Flavours</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, maxime!</p>
-                      </center>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div>
-                      <center><i class="fa-solid fa-mug-hot"></i></center><br>
-                    </div>
-                    <div>
-                      <center>
-                        <h3>Pleasent Abient</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, maxime!</p>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
+    <div id="Service_bg">
+              <div id="items">
+
+                <center>
+                  <h1>Services</h1><br>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.voluptatibus mollitia adipisci quia. Esse, laborum atque.</p>
+                </center><br>
 
 
-
-            <div class="container" style="padding: 20px;border: none;">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-30px">
-                <div class="col">
+                
+            <div class="container_fluid" id="itembox">
+              <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 mx-2 p-3 mt-1  bg-warning" >
+                  
                   <div>
                     <center><i class="fa-solid fa-mug-hot"></i></center><br>
                   </div>
@@ -172,8 +139,11 @@
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, maxime!</p>
                     </center>
                   </div>
+
                 </div>
-                <div class="col">
+
+                <div class="col-lg-3 mx-2 p-3 mt-1  bg-warning" >
+
                   <div>
                     <center><i class="fa-solid fa-mug-hot"></i></center><br>
                   </div>
@@ -182,9 +152,12 @@
                       <h3>20 Coffee Flavours</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, maxime!</p>
                     </center>
-                  </div>
+                  </div>                  
+
                 </div>
-                <div class="col">
+
+                <div class="col-lg-3 mx-2 p-3 mt-1  bg-warning" >
+
                   <div>
                     <center><i class="fa-solid fa-mug-hot"></i></center><br>
                   </div>
@@ -194,44 +167,67 @@
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, maxime!</p>
                     </center>
                   </div>
+
                 </div>
+
               </div>
+
+            </div><br><br><br><br><br>
+            <br><a href="#"> Back To Home</a>
+              </div>
+              
+    </div>
+
+  <div id="contactus">
+    <div id="contact">
+      <div id="details">
+          <center><h1>CONTACT</h1></center><br>
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" id="usr">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+      
+            <div class="form-group">
+              <label for="ph">Phone:</label>
+              <input type="text" class="form-control" id="usr">
+            </div>
+      
+            <div class="form-group">
+              <label for="comment">Comment:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+      
+            <div class="radio">
+              <label for="gender">Gender:</label><br>
+      
+              <label><input type="radio" name="optradio" checked>Male</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Female</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Other</label>
             </div><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          </div>
+            <div class="form-group">
+              <input id="submit" type="submit" value="Submit">
+            </div><br>
+           
+          </form>
       </div>
-        </div>
-   
+      
+      <div id="map">
+      </div>
+
+    </div>
+    <br><a href="#"> Back To Home</a>
+  </div>
    
 
 

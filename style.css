@@ -7,8 +7,6 @@
     
 }
 #bg{
-    /* border: 3px solid black; */
-    /* background-color: rgb(236, 245, 154); */
     background-image: url(https://cdn.wallpapersafari.com/96/76/Fon1tW.jpg);
     width: 100%;
     height: 600px;
@@ -18,17 +16,14 @@
     color: white;
 }
 #nav{
-    /* border: 2px solid rgb(220, 78, 78); */
     background-color: rgba(169, 105, 56, 0.578);
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     flex-wrap: wrap;
 }
 #logo{
-    /* border: 2px solid green; */
     width:250px;
     height: 60px;
     display: flex;
@@ -37,7 +32,6 @@
 
 }
 #fields{
-    /* border: 2px solid green; */
     width:700px;
     height: 60px;
     display: flex;
@@ -51,12 +45,22 @@
     }
 }
 
+
+
+#dropdown{
+        display: none;
+    }
+
+    #icon:hover #dropdown{
+        display: block;
+    }
+    
+
 @media (max-width:965px){
     #fields{
         width:400px;
     }
     #text{
-        /* border: 2px solid white !important; */
         margin-left: 100px !important;
     
     }
@@ -67,7 +71,6 @@
         font-size: 13px;
     }
     #fields{
-        /* margin-left: 0px; */
         gap: 5px;
     }
 }
@@ -78,7 +81,6 @@
         justify-content: flex-start;
     }
     #fields{
-        /* margin-left: 0px; */
         gap: 5px;
     }
 }
@@ -118,31 +120,26 @@
         font-size: 12px;
     }
 }
-/* @media(max-width:771px){
-  #img_cof{
-    width:100% !important;
-  }
-} */
+@media(max-width:997px){
+    #z{
+        
+    }
+}
+
 
 #collapse{
-    /* border: 1px solid white; */
     width: 100%;
     height: 450px;
     margin-top: 50px;
     color: blanchedalmond;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    /* padding-top: 150px; */
-    /* display: flex; */
-    justify-content: center;
 }
 .carousel-item{
     width: 100%;
     height: 450px;
-    /* border: 2px solid red; */
 }
 
 #text{
-    /* border: 2px solid rgb(211, 68, 197); */
     width: 350px;
     height: 150px;
     margin: 140px;
@@ -151,14 +148,12 @@
     padding-left: 10px;
 }
 #abtus{
-    /* border: 2px solid green; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
 #img_cof{
-    /* border: 1px solid blue; */
     border-radius: 0px !important;
 }
 .card-body{
@@ -173,13 +168,10 @@
 #photo{
     display: flex;
     justify-content: center;
-    /* border: 1px solid coral; */
 }
 #title{
 
     & h1{
-        /* font-size: 30px; */
-        /* font-weight: 80px; */
         font-family:Georgia, 'Times New Roman', Times, serif;
         color: orangered;
     }
@@ -188,8 +180,6 @@
     }
 }
 #more{
-    /* width: 100%; */
-    /* border: 2px solid gray; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,79 +197,71 @@
     justify-content: center;
 }
 
-#services{
-    /* border: 2px solid rgb(241, 80, 80); */
+#Service_bg{
     width: 100%;
-    /* background-color: rgb(244, 247, 247); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
     background-image: url("https://www.theladders.com/wp-content/uploads/drink-coffee-191101.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-}
-
-#serv{
-    width: 1400px;
-    /* height: 100px; */
-    /* border: 2px solid black; */
-    color: white;
     display: flex;
     justify-content: center;
-    align-items:first baseline;
-    flex-wrap: wrap;
-   
+    align-items: center;
 }
-#item{
-    
-    margin-top: 30px;
-    /* margin-bottom: 300px; */
-    /* border: 1px solid green; */
-    /* height: 500px; */
-    gap: 10px;
-    /* height: 700px; */
-    & h1{
-        font-size: 55px;
-    }
-}
-#blog{
-
-    & .container{
-        display: flex;
-        justify-content: space-around;
-        align-items: last baseline;
-        flex-wrap: wrap;
-        /* margin-top: 50px; */
-        /* border: 2px solid black; */
-        height: 300px;
-
-        & .row{
-            gap: 30px;
-
-            & .col{
-                padding-top: 10px;
-                height: 250px;
-                /* border: 2px solid blue; */
-                background-color: orangered;
-            }
-        } 
-    }
+#items{
+    color: white;
 }
 
 .fa-mug-hot{
-    font-size: 60px;
-    color: lightseagreen;
+    font-size: 50px;
+    color: aquamarine;
+}
+#itembox{
+    padding-top: 70px;
+
+
+    & .row{
+        width: 100%;
+        & .col-lg-3{
+            background-color: rgb(216, 86, 26) !important;
+            color: white;
+        }
+    }
+
 }
 
-.col{
-    border: 2px solid brown;
-    /* display: flex; */
-   justify-content: center;
-   align-items: center;
+
+#contact{
+    background-color: rgb(88, 70, 28);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#details{
+    width: 400px;
+    height: 600px;
 }
 
+#submit{
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+
+#map{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/nYSxLpxbEpecsgMb8uSmmJ.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+}
 
 
